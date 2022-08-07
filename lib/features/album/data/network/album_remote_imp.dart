@@ -17,7 +17,7 @@ class AlbumRemoteImp implements AlbumRemote {
   Stream<Result<Album, Error>> fetchAlbum(int id) async* {
     try {
       var model = await _albumAPIs.fetchAlbum(id);
-      yield Result.ok(mapToAlbum(model));
+      yield Result.ok(_mapToAlbum(model));
     } catch (e) {
       yield Result.error(const Error(message: "error"));
     }
@@ -27,12 +27,12 @@ class AlbumRemoteImp implements AlbumRemote {
   Stream<Result<List<Album>, Error>> fetchAlbumList() async* {
     try {
       var modelList = await _albumAPIs.fetchAlbumList();
-      yield Result.ok(modelList.map((model) => mapToAlbum(model)).toList());
+      yield Result.ok(modelList.map((model) => _mapToAlbum(model)).toList());
     } catch (e) {
       yield Result.error(const Error(message: "error"));
     }
   }
 
-  Album mapToAlbum(AlbumModel model) =>
+  Album _mapToAlbum(AlbumModel model) =>
       Album(userId: model.userId, id: model.id, title: model.title);
 }
