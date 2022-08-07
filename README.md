@@ -31,6 +31,7 @@ Apart from the basic architecture setup, this sample also demonstrates
 - [stacked](https://pub.dev/packages/stacked) : mvvm plugins (viewmodels) 
 - [auto_route](https://pub.dev/packages/auto_route) : navigation 
 - [get_it](https://pub.dev/packages/get_it): dependency injection
+- [mockito](https://pub.dev/packages/mockito): unit testing
 
 # Module Structure
 There are 3 main modules to help separate the code. They are Data, Domain, and Application.
