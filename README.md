@@ -34,6 +34,11 @@ Apart from the basic architecture setup, this sample also demonstrates
 - [mockito](https://pub.dev/packages/mockito): unit testing
 
 # Module Structure
+
+<p align="center">
+  <img src="https://camo.githubusercontent.com/a5485a38e6af7aa1055807a47e1833fc9a35eb7b997940b26936dcffae760623/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3737322f302a73664344456235373157442d374566502e6a7067" />
+</p>
+
 There are 3 main modules to help separate the code. They are Data, Domain, and Application.
 
 - **Data** contains Local Storage, APIs, Data objects (Request/Response object, DB objects), and the repository implementation.
