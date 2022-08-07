@@ -48,9 +48,12 @@ There are 3 main modules to help separate the code. They are Data, Domain, and A
 - **Application** contains UI, View Objects, Widgets, etc. Can be split into separate modules itself if needed. For example, we could have a module called Device handling things like camera, location, etc.
 
 
-# package 
+# Package structure
 - using modular architecture to architect the app per feature to be easier and more readable and isolate the feature from each other
-![image](https://user-images.githubusercontent.com/19567934/183311532-5efde826-f8ef-48a7-8df5-a0ed1731a2a0.png)
+
+<p>
+  <img src="https://user-images.githubusercontent.com/19567934/183311532-5efde826-f8ef-48a7-8df5-a0ed1731a2a0.png" />
+</p>
 
 # Repository
 - Bridge between Data layer and Domain layer
