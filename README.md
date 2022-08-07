@@ -1,9 +1,5 @@
 # Flutter app architecture
 
-Guide to design Flutter app architecture using Stacked plugin.
-Here is the detailed guide on Medium
-https://medium.com/codex/a-complete-guide-to-architect-your-flutter-application-a5a4da662549
-
 ## Introduction
 
 This sample demonstrates how one can
