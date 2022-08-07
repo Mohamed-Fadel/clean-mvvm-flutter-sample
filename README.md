@@ -22,6 +22,16 @@ Apart from the basic architecture setup, this sample also demonstrates
 - Easy data sharing between the screens
 - And few more...
 
+#### dependencies
+
+- [dio](https://pub.dev/packages/dio) : http client
+- [retrofit](https://pub.dev/packages/retrofit) : apis 
+- [result_monad](https://pub.dev/packages/result_monad) : Result Monad (e.g wrapping result for success and failure) 
+- [pretty_dio_logger](https://pub.dev/packages/pretty_dio_logger) : logs network calls in a pretty, easy to read format 
+- [stacked](https://pub.dev/packages/stacked) : mvvm plugins (viewmodels) 
+- [auto_route](https://pub.dev/packages/auto_route) : navigation 
+- [get_it](https://pub.dev/packages/get_it): dependency injection
+
 # Module Structure
 There are 3 main modules to help separate the code. They are Data, Domain, and Application.
 

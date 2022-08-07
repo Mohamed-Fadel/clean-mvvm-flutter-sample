@@ -39,6 +39,7 @@ dependencies:
   dio: ^4.0.6
   retrofit: ^3.0.1+1
   json_annotation: ^4.6.0
+  pretty_dio_logger: ^1.2.0-beta-1
   # inversion of control
   get_it: ^7.2.0
   injectable: ^1.5.3
@@ -46,8 +47,8 @@ dependencies:
   stacked: ^2.3.15
   # navigation
   auto_route: ^4.2.1
+
   result_monad: ^1.0.2
-  pretty_dio_logger: ^1.2.0-beta-1
 
 dev_dependencies:
   flutter_test:
