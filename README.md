@@ -1,5 +1,7 @@
 # Flutter app architecture
 
+Model–View–ViewModel (MVVM) is a very established architectural pattern when it's come to software development. Here I have tried to put MVVM in simple example which will help you to implement in any project.
+
 <p align="center">
   <img src="https://uploads.toptal.io/blog/image/127608/toptal-blog-image-1543413671794-80993a19fea97477524763c908b50a7a.png" />
 </p>
@@ -60,3 +62,7 @@ One can download the code in zip format or take checkout from the git repository
 
 ### Note
 You need to run build_runner command for code generation everytime when you make changes in your original file.
+
+## Todo
+- to add more unit tests to increase code coverage
+- add widget & integration testing
