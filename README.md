@@ -1,5 +1,9 @@
 # Flutter app architecture
 
+<p align="center">
+  <img src="https://uploads.toptal.io/blog/image/127608/toptal-blog-image-1543413671794-80993a19fea97477524763c908b50a7a.png" />
+</p>
+
 ## Introduction
 
 This sample demonstrates how one can
